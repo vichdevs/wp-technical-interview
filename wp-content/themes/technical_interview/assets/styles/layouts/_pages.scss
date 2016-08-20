@@ -1,0 +1,45 @@
+body.contact-us{ background: url(../images/jungle.jpg) no-repeat center top; background-size:cover; }
+main.main{  background:rgba(255,255,255,.9); padding:4em; float:left; width:100%; }
+.page-header{ float:left; width:100%;}
+.page-header h1 {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 4.2px;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom:16px;
+}
+.messages p{ display:none;}
+.messages p.message{ display:block;}
+.messages{ float:left; width:100%;}
+.messages .message-success{  float:left; width:100%;}
+.messages .message-success {
+  color: #fff;
+  float: left;
+  font-size: 13px;
+  margin: 0;
+  padding: 12px;
+  text-align: center;
+  width: 100%;
+  background:#1a1a1a;
+}
+.form-feild{ float:left; width:100%; margin:11px 0px 8px; color:#000000;}
+.form-feild label{ float:left; width:100%; font-size:14px; line-height:20px;}
+.form-feild input[type="text"], .form-feild input[type="email"], .form-feild input[type="password"]{ border:1px solid #1a1a1a; background: transparent; height:48px; width:100%; padding:12px; color:#333; font-size:15px; font-family:Open Sans,sans-serif;}
+.form-feild br{ display:none;}
+.form-feild p{ display:none;}
+.messages p.message-error{ float:left; width:100%; background:#fff; margin:1px 0px 0px; border-left:3px solid #ff383f; padding:4px 9px 5px; font-size:13px; color:#000; line-height:16px;}
+.wpcf7-form input[type="submit"]{ float:right; font-size:15px; color:#fff; text-transform:uppercase; letter-spacing: 1.9px; background: #1a1a1a  url(../images/msg-icon.png) no-repeat calc(100% - 27px) 20px; padding:14px 60px 16px 30px; font-family:Open Sans,sans-serif; margin-top:8px; cursor:pointer; }
+span.wpcf7-not-valid-tip{ float:left; width:100%; background:#fff; margin:1px 0px 0px; border-left:3px solid #ff383f; padding:4px 9px 5px; font-size:13px; color:#ff0000; line-height:16px;}
+.wpcf7-form p:last-child{ float:right;}
+.wpcf7-form.sent p:nth-last-child(2){ float:right; margin:0px;}
+div.wpcf7-response-output{float: left;
+    font-size: 14px;
+    margin-top: 11px;
+    padding: 0.5em 1em;
+    width: 100%;}
+	
+@media screen and (max-width: 568px) {
+    main.main { padding:2em;    }
+}

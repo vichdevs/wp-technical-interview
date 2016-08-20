@@ -1,0 +1,11 @@
+To: root
+Subject: Panic or segfault in Samba
+From: nobody <nobody@sitphp3>
+
+The Samba 'panic action' script, /usr/share/samba/panic-action,
+was called for PID 4005 ().
+
+This means there was a problem with the program, such as a segfault.
+However, the executable could not be found for process 4005.
+It may have died unexpectedly, or you may not have permission to debug
+the process.
