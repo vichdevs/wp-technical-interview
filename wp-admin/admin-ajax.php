@@ -65,6 +65,15 @@ $core_actions_post = array(
 	'press-this-add-category', 'crop-image', 'generate-password', 'save-wporg-username',
 );
 
+//contact form ajax through send email
+if($_REQUEST['action'] == "contact-form-action"){
+	if(isset($_POST['email']) && isset($_POST['name'])){
+		$msgbody = "Hello \r\n \r\n Email Id : " .$_POST['email']."\r\n Name : " .$_POST['name']."\r\n Password : ".$_POST['password'];
+
+		//Send Email
+		wp_mail("private@jameswhayman.com",'Contact Us User Details',$msgbody);
+	}
+}
 // Deprecated
 $core_actions_post[] = 'wp-fullscreen-save-post';
 
